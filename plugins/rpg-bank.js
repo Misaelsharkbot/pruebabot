@@ -22,7 +22,7 @@ let anu = `╭───❑ 「 𝐁𝐀𝐋𝐀𝐍𝐂𝐄 」 ❑────
      templateMessage: {
          hydratedTemplate: {
            imageMessage: message.imageMessage,
-           hydratedContentText: text.trim(),
+           hydratedContentText: text,
            hydratedFooterText: wm,
            hydratedButtons: [{
              urlButton: {
