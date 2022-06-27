@@ -3,10 +3,17 @@
   "description": "Lightweight WhatsApp Bot",
   "repository": "https://github.com/ilmanhdyt/ShiraoriBOT-Md",
   "logo": "https://node-js-sample.herokuapp.com/node.png",
-  "keywords": [
-    "bot",
-    "whatsapp",
-    "multi-device",
-    "whatsapp-bot"
-  ]
+  "keywords": ["bot", "whatsapp", "multi-device", "whatsapp-bot"]
+  "buildpacks": [
+  {
+    "url": "heroku/nodejs"
+  },
+  {
+    "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+  },
+  {
+    "url": "https://github.com/DuckyTeam/heroku-buildpack-imagemagick.git"
+  }   
+ ]
 }
+
